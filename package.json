@@ -6,7 +6,7 @@
   "homepage": "https://surenderhsr44.github.io/samsung-playlist-back",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages  -d build",
+    "deploy": "gh-pages  -d dist",
     "build": "tsc",
     "start": "node ./dist/index.js"
   },
