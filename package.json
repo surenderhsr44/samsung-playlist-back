@@ -1,0 +1,29 @@
+{
+  "name": "playlist-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages  -d build",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lowdb": "^1.0.9",
+    "@types/ws": "^7.2.4",
+    "graphql-yoga": "^1.16.7",
+    "lodash": "^4.17.15",
+    "lowdb": "^1.0.0",
+    "reflect-metadata": "^0.1.12",
+    "type-graphql": "^0.17.6"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "gh-pages": "^3.1.0",
+    "typescript": "^3.2.2"
+  }
+}
